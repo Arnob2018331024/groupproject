@@ -1,3 +1,7 @@
+### My first project
+##Project Title: 
+#UFOS & PLANE GAME
+
 ```
-### Project Title: Building A 2D Game Using JavaSwing
+This is a 2D game which is built on on JavaSwing.
 ```
