@@ -158,6 +158,7 @@ public class winplane extends JPanel implements ActionListener, KeyListener{
                 UFO_Y_AXIS[a]+=25;
             if(y<UFO_Y_AXIS[a])
                     UFO_Y_AXIS[a]-=25;
+            //--->Game over<---//
             if(x==UFO_X_AXIS[a]&&y==UFO_Y_AXIS[a])
                 flag=true;
                     
@@ -222,7 +223,7 @@ public class winplane extends JPanel implements ActionListener, KeyListener{
              { esc=true;
              playing=true;
              }
-        if(ke.getKeyCode()==KeyEvent.VK_BACK_SPACE){new secondmenu();}
+        //if(ke.getKeyCode()==KeyEvent.VK_BACK_SPACE){new secondmenu();}
         
         }
     private void audioInit(){

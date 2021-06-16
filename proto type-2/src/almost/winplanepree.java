@@ -55,9 +55,8 @@ public class winplanepree extends JPanel implements ActionListener,KeyListener{
     start_button.setBackground(Color.LIGHT_GRAY);
     start_button.setForeground(Color.WHITE);
     start_button.setBounds(320,x,160,80);
-    start_button.setFocusable(true);
     start_button.setCursor(new Cursor(Cursor.HAND_CURSOR));
-    start_button.setToolTipText(s);
+    start_button.setFocusable(true);
     
     
    }

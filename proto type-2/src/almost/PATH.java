@@ -10,5 +10,5 @@ package almost;
  * @author Admin
  */
 public class PATH {
-    public static String path="O:\\study\\project\\almost\\src\\almost\\";
+    public static String path="src/almost/";
 }
